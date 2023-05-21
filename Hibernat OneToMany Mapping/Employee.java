@@ -19,7 +19,8 @@ public class Employee {
 	joinColumns= {@JoinColumn(name="eid")},
 	inverseJoinColumns= {@JoinColumn(name="pid")})
 	private List<Project>proj;
-
+		
+	//getter setter method
 	public int getEid() {
 		return eid;
 	}
